@@ -934,6 +934,12 @@ local function domHandler()
 		getMatchedElements(nodeList,full)
 		return list
 	end
+	
+	-- Function to generate the XML string representation of the DOM object
+	obj.toXML = function(obj)
+	
+	end
+	
     return obj
 end
 
